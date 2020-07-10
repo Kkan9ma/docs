@@ -2,7 +2,7 @@
 * Last Update : 20.07.10
 
 # index
-1. [선수 지식](#1.-선수-지식)
+1. [선수 지식](#1-선수-지식)
     - [빌드 과정과 관련된 용어](#빌드-과정과-관련된-용어)
     - [make와 관련된 개념](#make와-관련된-개념)
     - [Makefile 사용 이유](#makefile-사용-이유)
@@ -16,6 +16,7 @@
     - [확장자 규칙](#확장자-규칙)
         - [SUFFIXES를 이용한 예제](#suffixes를-이용한-예제)
         - [내부 매크로](#내부-매크로)
+3. [출처](#출처)
 
 ## 1. 선수 지식
 >`Makefile`은 프로그램 빌드와 관계 있는 도구다. 따라서 `Makefile`을 알기 전에 간단하게나마 알아야 할 개념이 몇 가지 있었기에 정리하였다.
@@ -122,5 +123,10 @@
 * `$<` : 현재의 목표파일보다 더 최근에 갱신된 파일 이름
 * `$?` : 위와 차이는 있으나 거의 같음.
 
+## 출처
+* [컴파일, 링킹, 로더 과정](http://yimoyimo.tk/Linker-and-Loader/)
+* [링킹, 링커, 컴파일 과정, 목적파일, 빌드 과정](https://jhnyang.tistory.com/40)
+* [[Linking] 링커 / 링킹이란 무엇인가](https://live-everyday.tistory.com/67s)
+* [GNU Make 강좌](http://doc.kldp.org/KoreanDoc/html/GNU-Make/GNU-Make.html#toc1)
 
-##### [상단으로](#00.-Makefile-정리)
+##### [상단으로](#00-makefile-정리)
