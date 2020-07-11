@@ -1,4 +1,4 @@
-# 01. Low level file File IO
+# 01. Low level File IO
 * Last Update : 20.07.11
 
 # index
@@ -176,4 +176,4 @@
 * [저수준 파일 입출력](https://12bme.tistory.com/211)
 * [저수준 파일 입출력](https://3210w0.tistory.com/114)
 
-##### [상단으로](#01-Low-level-file-io)
+##### [상단으로](#01-low-level-file-io)
