@@ -11,9 +11,9 @@
 
             console.log("include test " , str.includes("^")); // true
 * hello로 시작하는지 어떻게 확인하는가?
-    - 1) 정규표현식
-    - 2) 변수 이용, 잘라서 비교하는 `substr`등 이용하기.
-    - 3) `startsWith`, `endsWith`
+    - 정규표현식
+    - 변수 이용, 잘라서 비교하는 `substr`등 이용하기.
+    - `startsWith`, `endsWith`
 * 이외
     - `includes`
 

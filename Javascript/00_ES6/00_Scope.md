@@ -41,7 +41,8 @@
 * `let i`는 for문 내에서의 block scope이기 때문에 `console.log`가 불가능.
 
 #### Sample 3: Let
-* if
+* `if`  
+
             var name = "global var";
 
             function home() {
@@ -89,12 +90,12 @@
                 })
             }
 #### 결과
-![](./srcs/00/images/01.png)
+![](./srcs/00/images/00.png)
 * `i` 값은 callback 밖에 있는 값을 계속 참조를 유지하며 4라는 값을 공유.
     - 지역변수를 사용해서 해결할 수도 있으나 `let`으로 해결 가능.
     - 블록에 있던 것을 기억하다가 그것을 참조하는 방식.
 
-![](./srcs/00/images/02.png)
+![](./srcs/00/images/01.png)
 
 ### const - 선언된 변수 지키기
 #### sample: var
@@ -119,6 +120,7 @@
             home();
 
 * 배열의 경우 마찬가지
+
             function home() {
                 const homename = [1, 2, 3, 3];
                 homename = ["1", "2"];
@@ -126,6 +128,7 @@
             }
 
             home();
+
 * 전략
     * const를 기본으로 사용할 것.
     * 변경이 될 수 있는 변수는 let을 사용한다.
@@ -141,6 +144,7 @@
             }
 
             home();
+            
 * const를 사용하더라도 array와 object의 값을 변경하는 것은 가능하다.
     - 값을 재할당하는 형식의 코드만 사용 불가.
 #### immutable array
