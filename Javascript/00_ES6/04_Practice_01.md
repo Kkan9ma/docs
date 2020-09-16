@@ -1,4 +1,4 @@
-# 03. Practice 01
+# 04. Practice 01
 * 실습 예제 1
 
 ## 예제
@@ -53,3 +53,15 @@
 * [[Javascript] map, reduce, filter를 유용하게 활용하는 15가지 방법](https://medium.com/@Dongmin_Jang/javascript-15%EA%B0%80%EC%A7%80-%EC%9C%A0%EC%9A%A9%ED%95%9C-map-reduce-filter-bfbc74f0debd)
 * [화살표 함수](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Functions/%EC%95%A0%EB%A1%9C%EC%9A%B0_%ED%8E%91%EC%85%98)
 * [Array.prototype.forEach()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
+
+## Crong
+            function print() {
+                let list = document.querySelectorAll(li);
+                let listArray = Array.from(list); // li 노드로 구성된 배열
+                let eArray = listArray.filter(function(v) {
+                    return v.innerText.includes("e");
+                })
+                console.log(eArray.length);
+            }
+
+            print();

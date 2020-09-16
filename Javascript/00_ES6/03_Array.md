@@ -1,4 +1,4 @@
-# 02. Array
+# 03. Array
 * Array를 순회하며 동작하는 것들 살펴보기.
 
 ## 1. for of - 순회하기(iterate)

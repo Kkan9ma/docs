@@ -1,4 +1,4 @@
-# 01. String
+# 02. String
 * ES2015 String: 새로운 메소드들
 
 ## 예시
