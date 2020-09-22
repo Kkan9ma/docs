@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number guessing game</title>
+    <style>
+        .answer_box {
+            color: #f2f2f2;
+            background-color: green;
+        }
+        .wrong_info {
+            color: #f2f2f2;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Number guessing game</h1>
+    <p>We have selected a random number between 1 and 100. See if you can guess it in 10 turns or less. We'll tell you if your guess was too high or too low.</p>
+    <div class="guess">
+        <span class="guess_text">Enter a guess: </span>
+        <input type="text" class="guess_input"/>
+        <button class="guess_btn" >Submit guess</button>
+    </div>
+    <div class="info_box">
+        <p class="prev_info"></p>
+        <p class="wrong_info"></p>
+        <p class="wrong_box"></p>
+        <p class="answer_box"></p>
+    </div>
+    <div class="new_game_box">
+
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
