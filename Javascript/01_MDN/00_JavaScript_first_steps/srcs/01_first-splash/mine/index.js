@@ -84,7 +84,7 @@ function printWrongAnswerBar(ranNum, submitVal) {
     wrongBox.appendChild(span);
 }
 
-function terminateGame() {
+function setGameOver() {
     const div = document.createElement("div");
     const text = "Game Over!";
 
@@ -100,7 +100,7 @@ answers.checkAnswers = function(submitVal) {
         makeNewGameBtn();
     } else {
         if (answers.count === limit_click) {
-            terminateGame();
+            setGameOver();
         } else {
             printWrongAnswerBar(ranNum, submitVal);
         }
